@@ -1,0 +1,146 @@
+Cloning into '/workspace/source'...
+Collecting flake8
+  Downloading flake8-7.4.1-py2.py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.4/57.4 kB 1.6 MB/s eta 0:00:00
+Collecting pytest
+  Downloading pytest-9.1.1-py3-none-any.whl (386 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 386.5/386.5 kB 779.4 kB/s eta 0:00:00
+Collecting Flask
+  Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.4/103.4 kB 578.2 kB/s eta 0:00:00
+Collecting Flask-Cors
+  Downloading flask_cors-6.0.5-py3-none-any.whl (16 kB)
+Collecting Flask-Talisman
+  Downloading flask_talisman-1.1.0-py2.py3-none-any.whl (18 kB)
+Collecting mccabe<0.8.0,>=0.7.0
+  Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting pyflakes<4.1.0,>=4.0.0
+  Downloading pyflakes-4.0.3-py2.py3-none-any.whl (66 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.2/66.2 kB 786.4 kB/s eta 0:00:00
+Collecting pycodestyle<2.16.0,>=2.15.0
+  Downloading pycodestyle-2.15.0-py2.py3-none-any.whl (31 kB)
+Collecting pluggy<2,>=1.5
+  Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+Collecting iniconfig>=1.0.1
+  Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Collecting pygments>=2.7.2
+  Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 640.4 kB/s eta 0:00:00
+Collecting exceptiongroup>=1
+  Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting tomli>=1
+  Downloading tomli-2.5.0-py3-none-any.whl (14 kB)
+Requirement already satisfied: packaging>=22 in /usr/local/lib/python3.10/site-packages (from pytest) (26.3)
+Collecting jinja2>=3.1.2
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 2.1 MB/s eta 0:00:00
+Collecting blinker>=1.9.0
+  Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Collecting werkzeug>=3.1.0
+  Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 228.7/228.7 kB 1.2 MB/s eta 0:00:00
+Collecting click>=8.1.3
+  Downloading click-8.5.0-py3-none-any.whl (125 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 kB 1.4 MB/s eta 0:00:00
+Collecting itsdangerous>=2.2.0
+  Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting markupsafe>=2.1.1
+  Downloading markupsafe-3.0.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Collecting typing_extensions>=4.6.0
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 2.5 MB/s eta 0:00:00
+Installing collected packages: Flask-Talisman, typing_extensions, tomli, pygments, pyflakes, pycodestyle, pluggy, mccabe, markupsafe, itsdangerous, iniconfig, click, blinker, werkzeug, jinja2, flake8, exceptiongroup, pytest, Flask, Flask-Cors
+Successfully installed Flask-3.1.3 Flask-Cors-6.0.5 Flask-Talisman-1.1.0 blinker-1.9.0 click-8.5.0 exceptiongroup-1.3.1 flake8-7.4.1 iniconfig-2.3.1 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 mccabe-0.7.0 pluggy-1.6.0 pycodestyle-2.15.0 pyflakes-4.0.3 pygments-2.21.0 pytest-9.1.1 tomli-2.5.0 typing_extensions-4.16.0 werkzeug-3.1.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+0
+============================= test session starts ==============================
+platform linux -- Python 3.10.22, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/source
+collecting ... collected 1 item
+
+tests/test_service.py::test_home PASSED                                  [100%]
+
+============================== 1 passed in 0.16s ===============================
+Name:         accounts-ci-run
+Namespace:    default
+Labels:       tekton.dev/pipeline=accounts-ci-pipeline
+Annotations:  <none>
+API Version:  tekton.dev/v1
+Kind:         PipelineRun
+Metadata:
+  Creation Timestamp:  2026-10-10T11:14:37Z
+  Generation:          1
+  Resource Version:    4483
+  UID:                 7be16285-1385-47d9-9509-bd02eaa9d1ec
+Spec:
+  Params:
+    Name:   repo-url
+    Value:  https://github.com/anannya2510k/devops-capstone-project.git
+    Name:   revision
+    Value:  main
+  Pipeline Ref:
+    Name:  accounts-ci-pipeline
+  Task Run Template:
+    Service Account Name:  default
+  Timeouts:
+    Pipeline:  1h0m0s
+  Workspaces:
+    Empty Dir:
+    Name:  source
+Status:
+  Child References:
+    API Version:         tekton.dev/v1
+    Kind:                TaskRun
+    Name:                accounts-ci-run-test-project
+    Pipeline Task Name:  test-project
+  Completion Time:       2026-10-10T11:15:05Z
+  Conditions:
+    Last Transition Time:  2026-10-10T11:15:05Z
+    Message:               Tasks Completed: 1 (Failed: 0, Cancelled 0), Skipped: 0
+    Reason:                Succeeded
+    Status:                True
+    Type:                  Succeeded
+  Pipeline Spec:
+    Params:
+      Name:     repo-url
+      Type:     string
+      Default:  main
+      Name:     revision
+      Type:     string
+    Tasks:
+      Name:  test-project
+      Params:
+        Name:   repo-url
+        Value:  https://github.com/anannya2510k/devops-capstone-project.git
+        Name:   revision
+        Value:  main
+      Task Ref:
+        Kind:  Task
+        Name:  accounts-ci
+      Workspaces:
+        Name:       source
+        Workspace:  source
+    Workspaces:
+      Name:  source
+  Provenance:
+    Feature Flags:
+      Await Sidecar Readiness:                true
+      Coschedule:                             workspaces
+      Enable APIFields:                       beta
+      Enable Provenance In Status:            true
+      Enforce Nonfalsifiability:              none
+      Max Result Size:                        4096
+      Result Extraction Method:               termination-message
+      Running In Env With Injected Sidecars:  true
+      Verification No Match Policy:           ignore
+  Start Time:                                 2026-10-10T11:14:37Z
+Events:
+  Type    Reason     Age    From         Message
+  ----    ------     ----   ----         -------
+  Normal  Started    2m34s  PipelineRun  
+  Normal  Running    2m34s  PipelineRun  Tasks Completed: 0 (Failed: 0, Cancelled 0), Incomplete: 1, Skipped: 0
+  Normal  Succeeded  2m6s   PipelineRun  Tasks Completed: 1 (Failed: 0, Cancelled 0), Skipped: 0

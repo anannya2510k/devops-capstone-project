@@ -1,3 +1,4 @@
+
 name: CI Build
 
 on:
@@ -21,15 +22,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install flake8 nose coverage pylint
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install flake8 pytest
 
       - name: Run Flake8
         run: |
           flake8 service
 
-          - name: Run tests
+      - name: Run tests
         run: |
-          python -m pip install pytest
           python -m pytest -v

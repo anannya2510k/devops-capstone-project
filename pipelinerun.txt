@@ -141,6 +141,6 @@ Status:
 Events:
   Type    Reason     Age    From         Message
   ----    ------     ----   ----         -------
-  Normal  Started    2m34s  PipelineRun  
-  Normal  Running    2m34s  PipelineRun  Tasks Completed: 0 (Failed: 0, Cancelled 0), Incomplete: 1, Skipped: 0
-  Normal  Succeeded  2m6s   PipelineRun  Tasks Completed: 1 (Failed: 0, Cancelled 0), Skipped: 0
+  Normal  Started    4m33s  PipelineRun  
+  Normal  Running    4m33s  PipelineRun  Tasks Completed: 0 (Failed: 0, Cancelled 0), Incomplete: 1, Skipped: 0
+  Normal  Succeeded  4m5s   PipelineRun  Tasks Completed: 1 (Failed: 0, Cancelled 0), Skipped: 0

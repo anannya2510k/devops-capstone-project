@@ -17,4 +17,4 @@ Tekton pipelines for continuous delivery.
 
 ## Build Status
 
-![Build Status](https://github.com/YOUR_USERNAME/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+![Build Status](https://github.com/anannya2510k/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
